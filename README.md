@@ -1,6 +1,44 @@
-# HostelNest - Hostel Management System (Split Architecture)
+# HostelNest - Hostel Management System 
 
-HostelNest is a premium, web-based dashboard application designed to modernize and digitize hostel operations. This branch contains a decoupled, **full-stack client-server architecture**.
+## Overview
+
+  The Hostel Management System is a web-based application designed to simplify hostel administration by managing student records, room allocation, fee tracking,     and complaints in a centralized platform.
+
+The system reduces manual paperwork and improves efficiency for both hostel administrators and students.
+
+## Features
+ -Student Registration and Management
+ 
+ -Room Allocation and Availability Tracking
+ 
+ -Fee Management
+ 
+ -Complaint Registration and Tracking
+ 
+ -Dashboard for Hostel Administration
+ 
+ -Responsive User Interface
+ 
+ -Real-time Data Management
+ 
+ # Tech Stack
+### Frontend
+ -HTML5
+ 
+ -CSS3
+ 
+ -JavaScript
+ 
+### Backend
+  -Node.js
+  
+  -Express.js
+  
+### Database
+  -MongoDB
+  
+  -Mongoose
+  
 
 ---
 

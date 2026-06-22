@@ -1,8 +1,6 @@
 // ================= HOSTELNEST CLIENT-SIDE STATE & REST API =================
 
-const API_BASE = window.location.origin.includes("localhost:5000") 
-  ? "/api" 
-  : "http://localhost:5000/api";
+const API_BASE = "http://localhost:5000/api";
 
 let state = {
   rooms: [],

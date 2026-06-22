@@ -9,7 +9,11 @@ const PORT = process.env.PORT || 5000;
 const DB_FILE = path.join(__dirname, 'db.json');
 const todayDateStr = new Date().toISOString().split('T')[0];
 
-app.use(cors());
+app.use(cors({
+  origin: ['http://localhost:5000', 'http://localhost:5500', 'http://127.0.0.1:5500', 'http://127.0.0.1:5000'],
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
+}));
 app.use(express.json());
 
 // Serve static frontend assets
